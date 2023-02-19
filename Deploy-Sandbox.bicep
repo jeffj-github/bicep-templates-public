@@ -65,7 +65,7 @@ resource virtualNetwork 'Microsoft.Network/virtualNetworks@2022-07-01' = {
     ]
   }
 
-  resource subnet1 'subnets' existing = {
+resource subnet1 'subnets' existing = {
     name: subnet1Name
   }
 }
